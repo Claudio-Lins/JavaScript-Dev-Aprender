@@ -23,11 +23,22 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 
 
 // ARRAY //
-let pessoa = ['Claudio', 48, 'Casado', 'Masculino']
+// let pessoa = ['Claudio', 48, 'Casado', 'Masculino']
 
-let nome = pessoa[0]
-let idade = pessoa[1]
-let estadoCivil = pessoa[2]
-let genero = pessoa[3]
+// let nome = pessoa[0]
+// let idade = pessoa[1]
+// let estadoCivil = pessoa[2]
+// let genero = pessoa[3]
 
-console.log(`Nome: ${nome} Idade: ${idade} Estado Cívil: ${estadoCivil} Gienero: ${genero}`)
+// console.log(`Nome: ${nome} Idade: ${idade} Estado Cívil: ${estadoCivil} Gienero: ${genero}`)
+
+// FUNCTIONS //
+
+ let corSite = 'Azul';
+ function resetaCor(cor, tonalidade) {
+     corSite = cor + tonalidade;
+ };
+
+ console.log(corSite)
+ resetaCor('Verde', ' Claro')
+ console.log(corSite)
