@@ -60,11 +60,16 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 
 // OPERADORES //
 // Operadores aritimetico (matemáticos) +, -, /, * e **
- let salario = 100;
+//  let salario = 100;
 
- console.log(salario + salario)
- console.log(salario - salario)
- console.log(salario / salario)
- console.log(salario * salario)
- console.log(5 ** 2)
+//  console.log(salario + salario)
+//  console.log(salario - salario)
+//  console.log(salario / salario)
+//  console.log(salario * salario)
+//  console.log(5 ** 2)
   
+ // Incremento ++ --
+
+ let idade = 18;
+ console.log(++ idade)
+ console.log(-- idade)
