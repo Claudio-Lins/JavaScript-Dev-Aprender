@@ -45,14 +45,26 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 
 // TIPOS FUNCTIONS //
 // 1- Realizar uma tarefa, não devolve nasa
-function dizerNome(){
-    console.log('Claudio')
-}
-dizerNome()
+// function dizerNome(){
+//     console.log('Claudio')
+// }
+// dizerNome()
 
-// Faz calculo ou operação e retorna algo
-function multiplicarPorDois(valor){
-    return valor* 2;
-}
-let resultado = multiplicarPorDois(5);
-console.log(resultado)
+// // Faz calculo ou operação e retorna algo
+// function multiplicarPorDois(valor){
+//     return valor* 2;
+// }
+// let resultado = multiplicarPorDois(5);
+// console.log(resultado)
+
+
+// OPERADORES //
+// Operadores aritimetico (matemáticos) +, -, /, * e **
+ let salario = 100;
+
+ console.log(salario + salario)
+ console.log(salario - salario)
+ console.log(salario / salario)
+ console.log(salario * salario)
+ console.log(5 ** 2)
+  
