@@ -79,9 +79,18 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 
 // OPERADORES DE IGUALDADE
 // Igualdade etrita (Compara valor e tipo)
-    console.log(1 === 1) //true 
-    console.log('1' === 1) // false
+    // console.log(1 === 1) //true 
+    // console.log('1' === 1) // false
 
 // Igualdade solta (Compara somente valor)
-    console.log(1 == 1) //true 
-    console.log('1' == 1) // true
+    // console.log(1 == 1) //true 
+    // console.log('1' == 1) // true
+
+
+// OPERADORES TERNÁRIOS
+// ? e :
+// Se o cliente tiver 100 ou mais pontos ele é Premium caso contrário é comum
+let pontos = 99;
+let tipo = pontos >= 100 ? 'Premium' : 'Comum';
+
+console.log(tipo)
