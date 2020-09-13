@@ -34,11 +34,25 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 
 // FUNCTIONS //
 
- let corSite = 'Azul';
- function resetaCor(cor, tonalidade) {
-     corSite = cor + tonalidade;
- };
+//  let corSite = 'Azul';
+//  function resetaCor(cor, tonalidade) {
+//      corSite = cor + tonalidade;
+//  };
 
- console.log(corSite)
- resetaCor('Verde', ' Claro')
- console.log(corSite)
+//  console.log(corSite)
+//  resetaCor('Verde', ' Claro')
+//  console.log(corSite)
+
+// TIPOS FUNCTIONS //
+// 1- Realizar uma tarefa, não devolve nasa
+function dizerNome(){
+    console.log('Claudio')
+}
+dizerNome()
+
+// Faz calculo ou operação e retorna algo
+function multiplicarPorDois(valor){
+    return valor* 2;
+}
+let resultado = multiplicarPorDois(5);
+console.log(resultado)
