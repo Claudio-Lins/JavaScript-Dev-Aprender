@@ -70,6 +70,18 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
   
  // Incremento ++ --
 
- let idade = 18;
- console.log(++ idade)
- console.log(-- idade)
+//  let idade = 18;
+//  console.log(++ idade)
+//  console.log(-- idade)
+
+//  console.log(idade += idade)
+
+
+// OPERADORES DE IGUALDADE
+// Igualdade etrita (Compara valor e tipo)
+    console.log(1 === 1) //true 
+    console.log('1' === 1) // false
+
+// Igualdade solta (Compara somente valor)
+    console.log(1 == 1) //true 
+    console.log('1' == 1) // true
