@@ -90,7 +90,48 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 // OPERADORES TERNÁRIOS
 // ? e :
 // Se o cliente tiver 100 ou mais pontos ele é Premium caso contrário é comum
-let pontos = 99;
-let tipo = pontos >= 100 ? 'Premium' : 'Comum';
+// let pontos = 99;
+// let tipo = pontos >= 100 ? 'Premium' : 'Comum';
 
-console.log(tipo)
+// console.log(tipo)
+
+
+// OPERADORES LÓGICOS
+// Operador E (&&) Retorna TRUE se as duas condições avaliadas forem true
+//    console.log(true && true) // true
+
+// let maiorIdade = true;
+// let possuiCarteiraTrabalho = true;
+// let podeAplicar = maiorIdade && possuiCarteiraTrabalho;
+
+// console.log(podeAplicar)
+
+// Operador OU (||) Retorna TRUE se uma das duas condições avaliadas forem true
+
+// let maiorIdade = true;
+// let possuiCarteiraTrabalho = false;
+// let podeAplicar = maiorIdade || possuiCarteiraTrabalho;
+
+// console.log(podeAplicar)
+
+// Operador NOT (!) Retorna TRUE se as duas condições avaliadas forem true
+//    console.log(true && true) // true
+
+// let maiorIdade = true;
+// let possuiCarteiraTrabalho = true;
+// let podeAplicar = maiorIdade && possuiCarteiraTrabalho;
+
+// console.log(podeAplicar)
+
+
+//troca de vaores
+
+let a = 'vermelho'
+let b = 'verde'
+
+let c = a; // cria uma terceira variavel para preservar o valor de (a)
+a = b;
+b = c;
+
+console.log(a)
+console.log(b)
