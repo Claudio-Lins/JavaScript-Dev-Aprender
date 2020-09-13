@@ -11,3 +11,12 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 // let sobrenome; // Undefined
 // let corSelecionada = null // Redefinir um valor posterormente
 
+// OBJETOS
+let pessoa = {
+    nome: 'Claudio',
+    idade: 48,
+    estaAprovado: true,
+    sobreNome: 'Lins'
+}
+
+console.log(pessoa)
