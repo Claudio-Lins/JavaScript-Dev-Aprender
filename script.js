@@ -12,11 +12,22 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 // let corSelecionada = null // Redefinir um valor posterormente
 
 // OBJETOS
-let pessoa = {
-    nome: 'Claudio',
-    idade: 48,
-    estaAprovado: true,
-    sobreNome: 'Lins'
-}
+// let pessoa = {
+//     nome: 'Claudio',
+//     idade: 48,
+//     estaAprovado: true,
+//     sobreNome: 'Lins'
+// }
 
-console.log(pessoa)
+// console.log(pessoa)
+
+
+// ARRAY //
+let pessoa = ['Claudio', 48, 'Casado', 'Masculino']
+
+let nome = pessoa[0]
+let idade = pessoa[1]
+let estadoCivil = pessoa[2]
+let genero = pessoa[3]
+
+console.log(`Nome: ${nome} Idade: ${idade} Estado Cívil: ${estadoCivil} Gienero: ${genero}`)
