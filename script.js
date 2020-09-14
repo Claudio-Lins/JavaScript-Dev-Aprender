@@ -164,22 +164,30 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 
 // SWITCH 
 
-let permissao;
-permissao = 'gerente'
+// let permissao;
+// permissao = 'gerente'
 
-switch (permissao) {
-    case 'comum':
-        console.log('Usuário comum')
-        break
+// switch (permissao) {
+//     case 'comum':
+//         console.log('Usuário comum')
+//         break
 
-    case 'gerente':
-        console.log('Usuário Gerente')
-        break
+//     case 'gerente':
+//         console.log('Usuário Gerente')
+//         break
 
-    case 'diretor':
-        console.log('Usuario Diretor')
-        break
+//     case 'diretor':
+//         console.log('Usuario Diretor')
+//         break
 
-    default:
-        console.log('Usuário não encontrado')
-}
+//     default:
+//         console.log('Usuário não encontrado')
+// }
+
+let i = 5
+while (i >= 1) {
+    if(i % 2 !== 0){
+        console.log(i)
+    }
+    i--
+} 
