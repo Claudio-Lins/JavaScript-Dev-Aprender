@@ -126,12 +126,37 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 
 //troca de vaores
 
-let a = 'vermelho'
-let b = 'verde'
+// let a = 'vermelho'
+// let b = 'verde'
 
-let c = a; // cria uma terceira variavel para preservar o valor de (a)
-a = b;
-b = c;
+// let c = a; // cria uma terceira variavel para preservar o valor de (a)
+// a = b;
+// b = c;
 
-console.log(a)
-console.log(b)
+// console.log(a)
+// console.log(b)
+
+
+// CONDICIONAIS //
+// IF .. ELSE
+
+// Se a hora estiver entre às 06:00 até 12:00 = Bom dia!
+// Se a hora estiver entre às 12:00 até 18:00 = Boa tarde!
+// Caso contrário = Boa noite!
+
+
+function horario() {
+    let hora = new Date();
+    let horaAtual = hora.getHours;
+    console.log(hora)
+
+    if (hora >= 7 && hora <= 12) {
+        console.log('Bom dia!!!!')
+    } else if (hora > 12 && hora < 18) {
+        console.log('Boa Tarde!!!')
+    } else {
+        console.log('Boa noite!!!!')
+    }
+}
+
+horario()
