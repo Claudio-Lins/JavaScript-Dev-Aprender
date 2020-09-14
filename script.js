@@ -145,18 +145,41 @@ console.log(`Minda idade é: ${idade}, minha altura é: ${altura}m e meu estado 
 // Caso contrário = Boa noite!
 
 
-function horario() {
-    let hora = new Date();
-    let horaAtual = hora.getHours;
-    console.log(hora)
+// function horario() {
+//     let hora = new Date();
+//     let horaAtual = hora.getHours;
+//     console.log(hora)
 
-    if (hora >= 7 && hora <= 12) {
-        console.log('Bom dia!!!!')
-    } else if (hora > 12 && hora < 18) {
-        console.log('Boa Tarde!!!')
-    } else {
-        console.log('Boa noite!!!!')
-    }
+//     if (hora >= 7 && hora <= 12) {
+//         console.log('Bom dia!!!!')
+//     } else if (hora > 12 && hora < 18) {
+//         console.log('Boa Tarde!!!')
+//     } else {
+//         console.log('Boa noite!!!!')
+//     }
+// }
+
+// horario()
+
+
+// SWITCH 
+
+let permissao;
+permissao = 'gerente'
+
+switch (permissao) {
+    case 'comum':
+        console.log('Usuário comum')
+        break
+
+    case 'gerente':
+        console.log('Usuário Gerente')
+        break
+
+    case 'diretor':
+        console.log('Usuario Diretor')
+        break
+
+    default:
+        console.log('Usuário não encontrado')
 }
-
-horario()
